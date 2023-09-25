@@ -13,8 +13,7 @@
 
 bool CheckList(int[][] source, out int[] nodes ) {
 
-    List<int> visitedNodes = new();
-
+    HashSet<int> visitedNodes = new();
     bool isChanged;
     do {
         isChanged = false;
